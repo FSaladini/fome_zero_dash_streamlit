@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 
-df1 = pd.read_csv('dataset\data.csv')
+df1 = pd.read_csv('dataset/data.csv')
 
 
 # 1. Quantos restaurantes únicos estão registrados?

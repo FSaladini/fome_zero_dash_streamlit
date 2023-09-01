@@ -8,7 +8,7 @@ from streamlit_folium import folium_static
 from funcs import global_metrics as gm
 
 
-raw_data_path = '/dataset/zomato.csv'
+raw_data_path = '\dataset\zomato.csv'
 
 
 def create_sidebar(df):

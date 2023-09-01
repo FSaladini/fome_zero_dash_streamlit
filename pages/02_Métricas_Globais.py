@@ -22,7 +22,7 @@ def create_sidebar(df):
 def main():
     st.set_page_config(page_title="Global", layout="wide")
 
-    df = pd.read_csv('dataset\data.csv')
+    df = pd.read_csv('dataset/data.csv')
     country_list = create_sidebar(df)
     
     st.markdown('# Visão geral por países')
